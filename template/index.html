@@ -1,0 +1,20 @@
+{% extends "layout.html" %}
+{% block body %}
+
+        <div class="input-div">
+            <label>Inch</label><br>
+            <input type="Number" value="1" id="inch" class="inpt">
+        </div>
+
+        <div class="input-div">
+            <h1>=</h1>
+        </div>
+
+        <div class="input-div">
+            <label>Centimeter</label><br>
+            <input type="Number" value="2.54" id="cm" class="inpt">
+        </div>   
+
+    <script src="{{url_for('static',filename='assets/js/js1.js')}}"></script>  
+
+{%endblock%}
